@@ -30,7 +30,8 @@ export default function RootLayout({
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
           >
-            <header className="flex justify-end w-screen p-2">
+            {/* <header className="flex justify-end w-screen p-2"> */}
+            <header>
             <SignedOut>
               <SignInButton >
                 <Button>Log In</Button>
